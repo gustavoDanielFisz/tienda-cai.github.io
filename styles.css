@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+  margin: 0;
+}
+header, footer {
+  background: #c4001d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+#contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
